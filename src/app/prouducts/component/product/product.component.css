@@ -1,0 +1,52 @@
+
+img {
+    height: 180px;
+    width: 100%;
+}
+
+.price {
+    background-color: rgb(222, 219, 217);
+    width: 100px;
+    padding: 3px;
+    border-radius: 30px;
+}
+
+.item {
+    width: 100%;
+    color: #333;
+    margin: 15px;
+    padding: 0px;
+    display: inline-block;  
+    box-shadow: 1px 2px 5px rgba(94, 90, 89, 0.3);
+}
+
+p {
+    margin: 15px 0px;
+    height: 100px;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+h4 {
+    height: 50px;
+    overflow: hidden;
+    padding: 5px 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+
+.item:hover {
+    transform: scale(1.01, 1.03);
+}
+
+.btne {
+    background-color: black;
+    border: none;
+    color: white;
+}
+.detais {
+    display: block;
+}
