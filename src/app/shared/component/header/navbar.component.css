@@ -5,9 +5,6 @@ ul.navbar-nav li a {
 
 .active,
 li:hover a {
-
-    /* background-color: #dae2e0; */
-   /*  color: #fff; */
     padding: .5rem .9rem;
     margin-top: 1rem;
     font-weight: bold;
