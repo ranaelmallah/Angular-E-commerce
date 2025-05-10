@@ -32,7 +32,4 @@ getproduct(){
 })
   console.log(this.data)
 }
-
-
-
 }

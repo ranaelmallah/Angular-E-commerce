@@ -61,7 +61,6 @@ clearitems(){
   localStorage.setItem("cart",JSON.stringify(this.cartproducts));
 this.getcarttotal()
 
-  // this.show=true;
 }
 addcart(){
 

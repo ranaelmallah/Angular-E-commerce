@@ -1,8 +1,6 @@
 
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators,FormBuilder } from '@angular/forms';
-
-
 @Component({
   selector: 'app-contact-us',
   templateUrl: './contact-us.component.html',

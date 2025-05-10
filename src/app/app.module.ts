@@ -14,10 +14,6 @@ import { TESTIMONIALComponent } from './testimonial/testimonial.component';
 import { CONTACTUSComponent } from './contact-us/contact-us.component';
 import { FooterComponent} from './footer/footer.component';
 
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,

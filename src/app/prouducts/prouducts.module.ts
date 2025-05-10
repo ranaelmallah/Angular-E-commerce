@@ -24,10 +24,8 @@ import { HomeProductComponent } from './homeProducts/home-product/home-product.c
     CommonModule,
     SharedModule,
     FormsModule,
-    // RouterModule,
-    // AppRoutingModule
-
- ],exports: [
+    ]
+ ,exports: [
   ProductComponent
   ,AllprouductsComponent,
   HomeProductComponent

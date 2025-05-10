@@ -9,15 +9,11 @@ import { FormBuilder,FormControl,FormGroup } from '@angular/forms';
 export class ProductComponent {
 @Input() data:any={};
 @Output() item =new EventEmitter();
-// @Output() itemid =new EventEmitter();
-
 
 addbutton:boolean=false;
 amount:number=0;
 add(){
 this.item.emit({item:this.data,quantity:this.amount})
 }
-// getid(){
-//   this.itemid.emit({itemid:this.data})
-// }
+
 }
